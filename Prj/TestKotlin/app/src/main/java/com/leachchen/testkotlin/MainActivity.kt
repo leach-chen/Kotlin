@@ -19,8 +19,25 @@ class MainActivity : AppCompatActivity() {
         //var kotlinStudy : KotlinStudy = KotlinStudy()
         var kotlinStudy = KotlinStudy()
 
-        KotlinStudy.printLog(""+kotlinStudy.testFun16(2))
+        //KotlinStudy.printLog(""+kotlinStudy.testFun16(2))
 
+        //var kotlinClass = KotlinClass("test value",0)
+/*      var classO = TestClassD()
+        classO.setInterFace(object : TestClassD.TestInterFace{
+            override fun test() {
+               // TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+                KotlinStudy.printLog("setInterFace run")
+            }
+        })*/
+
+  /*      var classO = TestClassC()
+        classO.no = 20
+        KotlinStudy.printLog(""+classO.no)*/
+
+    /*    var classO = TestClassD.TestClassE()
+        classO.testE()*/
+        /*var classO = TestClassD().TestClassF()
+        classO.testF()*/
 
 
     }

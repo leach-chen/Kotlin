@@ -242,4 +242,16 @@ class KotlinStudy {
             else -> printLog("none of the above")
         }
     }
+
+
+    fun testFun17() {
+        val items = listOf("apple", "banana", "kiwi")
+        for (item in items) {
+            printLog(item)
+        }
+
+        for (index in items.indices) {
+            printLog("item at $index is ${items[index]}")
+        }
+    }
 }
